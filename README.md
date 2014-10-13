@@ -1,6 +1,7 @@
 check_peplink_wan
 =================
-**Requires: python module mechanize & BeautifulSoup
+Requires: python module mechanize & BeautifulSoup
+
 Check WAN connection status for Peplink Balance 1350. Return OK if WAN is connected (included IP, Gateway, DNS), CRIT for other status.
 
 Usage: check_peplink_wan.py [options]
